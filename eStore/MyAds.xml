@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/acer.jpg</ImageUrl>
+    <Width>70</Width>
+    <Height>50</Height>
+    <Impressions>50</Impressions>
+    <AlternateText>Acer Computers on Sale until Saturday</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/hp-camera.png</ImageUrl>
+    <Width>70</Width>
+    <Height>50</Height>
+    <Impressions>20</Impressions>
+    <AlternateText>Save an additional 20% until Saturday</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/iphone.jpg</ImageUrl>
+    <Width>50</Width>
+    <Height>70</Height>
+    <Impressions>20</Impressions>
+    <AlternateText>Save 20% on the iPhone with a three year plan until Saturday</AlternateText>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eStoreDataObjects", "eStoreDataObjects\eStoreDataObjects.csproj", "{50FDCD3E-72F5-4DC0-A782-0B722AAB9C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eStoreWebObjects", "eStoreWebObjects\eStoreWebObjects.csproj", "{CCFE9B62-9403-437C-99AC-B7BCB683C88C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eStore", "eStore\", "{04197191-E8D0-4BA6-AF33-47CB47AFCB01}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/eStore"
+		Debug.AspNetCompiler.PhysicalPath = "eStore\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\eStore\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/eStore"
+		Release.AspNetCompiler.PhysicalPath = "eStore\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\eStore\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53722"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FDCD3E-72F5-4DC0-A782-0B722AAB9C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FDCD3E-72F5-4DC0-A782-0B722AAB9C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FDCD3E-72F5-4DC0-A782-0B722AAB9C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FDCD3E-72F5-4DC0-A782-0B722AAB9C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFE9B62-9403-437C-99AC-B7BCB683C88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFE9B62-9403-437C-99AC-B7BCB683C88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFE9B62-9403-437C-99AC-B7BCB683C88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFE9B62-9403-437C-99AC-B7BCB683C88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04197191-E8D0-4BA6-AF33-47CB47AFCB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04197191-E8D0-4BA6-AF33-47CB47AFCB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04197191-E8D0-4BA6-AF33-47CB47AFCB01}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{04197191-E8D0-4BA6-AF33-47CB47AFCB01}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

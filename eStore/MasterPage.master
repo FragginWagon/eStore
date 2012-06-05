@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Case1MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            font-size: x-small;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="font-family:Verdana;text-align:center">
+        <img src="img/theSource.png" /><br />
+        <br />
+        <div style="text-align:center">
+            <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" 
+                DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                ForeColor="#666666" Orientation="Horizontal" StaticSubMenuIndent="10px"
+                style="margin: 0 auto 0 auto">
+                <StaticSelectedStyle BackColor="#1C5E55" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                <DynamicMenuStyle BackColor="#E3EAEB" />
+                <DynamicSelectedStyle BackColor="#1C5E55" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login" Value="Login">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Register.aspx" Text="Register" Value="Register">
+                    </asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+&nbsp;<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <span class="style2">
+        <br />
+        &copy 2009 Greggers120588 
+        <br />
+        <a href = "mailto:greg.r.jacobs?subject=Website Problems">
+	greg.r.jacobs@gmail.com </a>
+        </span></div>
+    </form>
+</body>
+</html>
